@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+font-size: 5.652rem;
+margin-top: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    font-weight: 10%;
+}
+
+
+
+.top-container{
+    background-color: #FCD8D4;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 8%;
+}
+.middle-container{
+    background-color: #FDF6F0;
+    padding-top: 30px;
+}
+
+.skillscontainer{
+    background-color: #F8E2CF;
+    padding-top: 30px;
+}
+
+hr {
+    border: dotted #191a1a 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:  auto;
+  }
+
+.flowers{
+    width: 50%;
+}
+.cservices{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.interpersonal{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+
+/* button */
+
+.btn {
+    background: #3D94F6;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 120%;
+    font-weight: 100;
+    padding: 20px;
+    padding-bottom: 20px;
+   
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.contact-me{
+    background-color: #F8E2CF;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 70%;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 70%;
+    top: 50px;
+}
+
+.profile-pic{
+    width: 200px;
+    border-radius: 15%;
+}
+
+
+/* footer */
+.footer-col {
+    width: auto;
+    background-color: #F5C6AA;
+    padding: 50px 0 20px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 80px;
+    width: 80PX;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
